@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ----------Meyer Reset Above------------------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h1 h2 h3 h4 h5 {
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 48px;
+  margin: 2rem;
+}
+h2 {
+  font-size: 24px;
+}
+p {
+  font-size: 1.6rem;
+}
+html body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  border: solid yellow;
+  width: 100%;
+  position: fixed;
+  height: 100px;
+  background-color: black;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+}
+header .rilla {
+  display: flex;
+  justify-content: flex-start;
+}
+header ul {
+  margin-left: 5%;
+}
+header ul a {
+  color: white;
+  font-size: 2.6rem;
+  margin: 1rem;
+}
+.top-container {
+  border: solid red;
+  height: 755px;
+}
+.top-container h1 {
+  color: white;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+.top-container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 10%;
+}
+.top-container .main-img {
+  width: 100%;
+  height: 750PX;
+  -webkit-box-shadow: -1px 9px 29px 0px #ebebeb;
+  -moz-box-shadow: -1px 9px 29px 0px #ebebeb;
+  box-shadow: -1px 9px 29px 0px #ebebeb;
+}
+.middle-container {
+  border: solid green;
+  height: 200px;
+  background-color: #727B75;
+  /* Add padding to containers */
+  /* Full-width input fields */
+  /* Overwrite default styles of hr */
+  /* Set a style for the submit/register button */
+  /* Add a blue text color to links */
+  /* Set a grey background color and center the text of the "sign in" section */
+}
+.middle-container * {
+  box-sizing: border-box;
+}
+.middle-container .container {
+  padding: 16px;
+}
+.middle-container input[type=text],
+.middle-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.middle-container input[type=text]:focus,
+.middle-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.middle-container hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.middle-container .registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.middle-container .registerbtn:hover {
+  opacity: 1;
+}
+.middle-container a {
+  color: dodgerblue;
+}
+.middle-container .signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.bottom-container {
+  border: solid blue;
+  height: 400px;
+}
+footer {
+  background-color: #2A2D33;
+  height: 50px;
+  -webkit-box-shadow: -1px -4px 29px 0px #ffffff;
+  -moz-box-shadow: -1px -4px 29px 0px #ffffff;
+  box-shadow: -1px -4px 29px 0px #ffffff;
+}
+footer p {
+  color: white;
+}
